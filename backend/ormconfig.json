@@ -1,0 +1,17 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "dan!1985@",
+    "database": "gnvendas",
+    "migrations": [
+      "./src/database/migrations/*.ts"
+    ],
+    "entities":[
+      "./src/models/*.ts"
+    ],
+    "cli":{
+      "migrationsDir":"./src/database/migrations"
+    }   
+  }
